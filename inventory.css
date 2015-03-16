@@ -1,0 +1,156 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+input[type='button'] {
+	text-indent: 0px;
+}
+.product {
+	display: inline-block;
+	width: 200px;
+	margin-right: 5px;
+	border-right: 2px;
+	border-right-color: black;
+	border-right-style: solid;
+	padding-right: 5px;
+}
+
+.cost {
+	display: inline-block;
+	width: 95px;
+	text-align: right;
+	margin-right: 5px;
+	border-right: 2px;
+	border-right-color: black;
+	border-right-style: solid;
+	padding-right: 5px;
+}
+
+.quantity {
+	display: inline-block;
+	width: 50px;
+	text-align: right;
+	padding-right: 5px;
+}
+ #shopInventory {
+ 	padding-left: 50px;
+ 	max-width: 635px;
+ }
+
+#pageStatus, #loginMessage, #registerMessage {
+	padding-left: 10px;
+	max-width: 525px;
+	margin-left: 50px;
+	color: black;
+	background-color: lightblue;
+}
+
+#loginMessage div {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#loginMessage button {
+	margin-top: -24px;
+	margin-right: 5px;
+	float: right;
+}
+
+#registerMessage div {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#registerMessage button {
+	margin-top: -24px;
+	margin-right: 5px;
+	float: right;
+}
+
+form {
+	padding-left: 50px;
+	max-width: 650px;
+}
+
+div.item:nth-child(1) {
+ 	margin-top: 5px;
+ 	border-top: 2px;
+	border-top-style: solid;
+}
+
+div.item:nth-child(even) {
+ 	background-color: lightgrey;
+ 	box-shadow: 0 0 0 2px white inset;
+}
+
+div.item:nth-child(odd) {
+	background-color: lightblue;
+	box-shadow: 0 0 0 2px white inset;
+}
+
+#addedStatus, #quantityStatus, #costStatus, #productStatus,
+#userStatus, #passwordStatus, #emailStatus {
+	padding-left: 5px;
+	font-style: italic;
+	color: grey;
+	font-size: 0.8em;
+}
+
+.item {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom: 2px;
+	border-bottom-style: solid;
+}
+
+input {
+	margin: 2px;
+	text-indent: 5px;
+}
+
+input:focus::-webkit-input-placeholder {
+	color: black;
+}
+
+input:focus {
+	outline: none;
+	background-color: lavender;
+}
+
+#logout, .updateButton, .removeButton {
+	margin-left: 5px;
+}
+
+#redirect, #logout, #goToLogin, #redirect2 {
+	float: right;
+	margin-top: 8px;
+	margin-bottom: 5px;
+}
+
+#redirect, #goToLogin, #redirect2 {
+	margin-left: 5px;
+}
+
+#quantity {
+	margin-bottom: 5px;
+}
+
+#regButton {
+	margin-left: 50px;
+}
+
+h1 {
+	padding-left: 20px;
+	padding-right: 10px;
+	background-color: lightblue;
+}
+
+h3 {
+	max-width: 555px;
+	margin-left: 10px;
+	padding-left: 20px;
+	background-color: lightgrey;
+}
+
